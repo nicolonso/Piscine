@@ -1,0 +1,44 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    test01                                             :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: nalfonso <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2025/03/08 17:02:24 by nalfonso          #+#    #+#              #
+#    Updated: 2025/03/08 17:12:34 by nalfonso         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+#include <unistd.h>
+#include <stdlib.h>
+
+char 	read_value(char *str)
+{
+	int	i;
+
+	i = 0;
+	while (str[i])
+	{
+		if (str[i] >= 1 && str[i] <= 4)
+		{
+			i++;
+		}
+		else
+		{
+			return (1);
+		}
+	return (0);
+}
+
+int		read_pt(int *p1, int *p2, )
+{
+	
+
+}
+
+int		main(void)
+{
+	if (read_value(str) == )
+		malloc(sizeof)
+}
